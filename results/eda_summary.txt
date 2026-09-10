@@ -1,0 +1,63 @@
+CUSTOMER CHURN PROJECT - EDA SUMMARY
+====================================
+
+Dataset:
+- Total customers: 500
+- Total features: 17
+- Churned customers: 317 (63.4%)
+- Non-churned customers: 183 (36.6%)
+
+KEY FINDINGS
+------------
+
+1. Contract Type
+- Monthly contract churn rate: 84.36%
+- Yearly contract churn rate: 49.04%
+- 2-Year contract churn rate: 11.76%
+- Monthly contract customers show the highest churn rate.
+
+2. Subscription Type
+- Basic churn rate: 64.71%
+- Premium churn rate: 64.52%
+- Standard churn rate: 60.87%
+- Churn rates are relatively similar across subscription types.
+
+3. Internet Service
+- DSL churn rate: 62.21%
+- Fiber churn rate: 69.39%
+- No Internet churn rate: 59.67%
+
+4. Gender
+- Female churn rate: 62.4%
+- Male churn rate: 64.4%
+- Churn rates are similar between genders.
+
+5. Customer Behavior
+- Average inactive days:
+  No churn: 24.68
+  Churn: 33.89
+
+- Average support calls:
+  No churn: 3.34
+  Churn: 4.42
+
+- Average satisfaction score:
+  No churn: 6.02
+  Churn: 5.24
+
+- Average monthly charges:
+  No churn: 69.92
+  Churn: 76.70
+
+- Average tenure:
+  No churn: 34.75 months
+  Churn: 28.72 months
+
+CONCLUSION
+----------
+The EDA indicates that contract type, inactive days,
+satisfaction score, support calls, monthly charges,
+and tenure may be useful features for predicting customer churn.
+
+These observations will be evaluated further using
+machine learning models.
