@@ -1,0 +1,501 @@
+customer_id,age,gender,city,tenure_months,monthly_charges,total_charges,contract_type,payment_method,internet_service,support_calls,complaints,login_frequency,subscription_type,satisfaction_score,inactive_days,churn
+C001,58,Male,Chennai,48,46.21,2302.0,Monthly,UPI,None,0,0,4,Standard,4,14,No
+C002,19,Male,Kochi,15,51.43,817.03,Monthly,Credit Card,None,5,2,6,Standard,4,48,Yes
+C003,23,Female,Bengaluru,23,82.35,1987.12,Yearly,Bank Transfer,None,6,0,19,Basic,5,53,Yes
+C004,41,Male,Bengaluru,3,98.44,318.25,Yearly,Credit Card,Fiber,4,3,22,Standard,6,10,Yes
+C005,31,Female,Bengaluru,39,75.74,2833.25,Yearly,Bank Transfer,DSL,8,1,23,Standard,6,53,No
+C006,21,Male,Chennai,52,50.44,2501.59,Monthly,Debit Card,Fiber,7,3,30,Premium,8,9,Yes
+C007,33,Female,Kochi,58,59.39,3718.72,Yearly,Credit Card,None,1,0,29,Standard,2,9,No
+C008,68,Female,Bengaluru,25,119.63,3004.68,Monthly,UPI,None,1,5,30,Premium,9,48,Yes
+C009,59,Female,Bengaluru,19,68.1,1387.85,Monthly,Debit Card,None,8,0,29,Basic,5,53,Yes
+C010,56,Male,Hyderabad,24,76.24,1911.33,Yearly,UPI,None,7,0,5,Standard,6,56,Yes
+C011,69,Female,Mumbai,4,78.9,294.33,Monthly,Bank Transfer,Fiber,2,1,23,Premium,8,60,Yes
+C012,34,Female,Mumbai,60,94.34,5389.74,Monthly,Debit Card,DSL,5,3,30,Premium,9,28,Yes
+C013,32,Male,Delhi,2,46.86,89.52,Yearly,UPI,None,0,1,4,Premium,1,55,Yes
+C014,50,Male,Pune,43,76.23,3395.03,Monthly,Bank Transfer,Fiber,6,1,5,Standard,2,42,Yes
+C015,45,Female,Coimbatore,56,88.97,5368.28,Yearly,UPI,Fiber,5,0,9,Standard,4,12,No
+C016,26,Female,Hyderabad,18,108.08,1813.27,Monthly,UPI,Fiber,8,0,4,Premium,4,10,Yes
+C017,48,Male,Kochi,58,61.0,3812.72,Monthly,Debit Card,DSL,6,5,25,Standard,9,42,Yes
+C018,27,Male,Pune,14,80.02,1127.84,2-Year,Debit Card,Fiber,7,4,29,Basic,9,10,No
+C019,50,Male,Hyderabad,5,89.15,426.86,Yearly,UPI,None,0,4,4,Basic,7,42,Yes
+C020,51,Female,Pune,14,54.85,739.1,Yearly,Credit Card,None,4,3,12,Premium,2,0,No
+C021,54,Male,Bengaluru,35,50.19,1878.42,Monthly,UPI,Fiber,4,1,16,Standard,9,45,No
+C022,69,Male,Pune,60,114.2,6451.07,Yearly,UPI,Fiber,8,1,10,Premium,5,38,No
+C023,39,Male,Pune,33,111.01,3866.19,Monthly,UPI,None,4,0,2,Standard,6,49,Yes
+C024,34,Male,Coimbatore,36,78.29,2643.41,Yearly,Credit Card,None,5,4,19,Basic,3,27,No
+C025,37,Female,Chennai,58,89.8,5347.51,Monthly,Debit Card,None,2,1,29,Standard,3,51,Yes
+C026,44,Male,Hyderabad,48,99.33,4700.49,2-Year,Credit Card,DSL,1,3,29,Basic,1,54,No
+C027,30,Female,Delhi,20,107.78,2060.04,Yearly,Credit Card,DSL,4,0,26,Standard,5,22,No
+C028,43,Female,Chennai,8,49.82,403.7,2-Year,Debit Card,Fiber,6,2,25,Basic,6,27,No
+C029,50,Male,Kochi,58,49.2,2948.93,Yearly,UPI,None,3,2,15,Premium,2,60,No
+C030,39,Female,Bengaluru,47,73.18,3531.3,2-Year,Debit Card,DSL,4,4,6,Premium,4,26,No
+C031,42,Male,Pune,26,25.04,628.84,Monthly,Bank Transfer,None,5,3,16,Premium,8,43,Yes
+C032,48,Male,Bengaluru,19,85.13,1574.82,Monthly,Credit Card,None,3,1,6,Standard,1,2,Yes
+C033,48,Male,Coimbatore,27,79.69,2226.8,2-Year,Bank Transfer,DSL,3,1,22,Standard,1,57,No
+C034,67,Male,Kochi,15,116.01,1745.15,Monthly,UPI,None,1,3,6,Basic,8,42,Yes
+C035,53,Female,Coimbatore,40,109.74,4338.15,Yearly,Bank Transfer,Fiber,7,3,10,Premium,4,53,Yes
+C036,67,Female,Mumbai,18,92.79,1599.27,Monthly,Debit Card,DSL,1,1,6,Premium,4,24,Yes
+C037,63,Male,Bengaluru,27,76.55,2039.0,Monthly,Credit Card,DSL,0,4,14,Standard,8,0,Yes
+C038,37,Female,Kochi,35,76.88,2735.25,Yearly,Credit Card,DSL,4,3,17,Basic,1,24,No
+C039,61,Female,Hyderabad,54,37.12,2043.69,Monthly,UPI,DSL,0,0,22,Premium,7,8,No
+C040,29,Male,Pune,25,68.2,1660.67,Monthly,Bank Transfer,DSL,4,0,17,Standard,1,47,Yes
+C041,40,Male,Bengaluru,50,28.82,1332.87,2-Year,Credit Card,Fiber,2,1,6,Basic,8,42,No
+C042,31,Female,Pune,50,82.56,4434.29,Monthly,UPI,Fiber,1,4,2,Standard,5,36,Yes
+C043,42,Female,Mumbai,5,103.9,498.13,Yearly,Debit Card,None,1,4,27,Premium,1,22,Yes
+C044,60,Female,Bengaluru,33,26.2,853.54,Yearly,Bank Transfer,Fiber,5,5,30,Standard,8,45,No
+C045,29,Female,Coimbatore,30,94.45,2728.5,Monthly,Credit Card,Fiber,7,1,26,Standard,8,36,Yes
+C046,42,Female,Chennai,32,42.27,1290.34,2-Year,Debit Card,DSL,4,4,2,Standard,9,60,No
+C047,33,Female,Coimbatore,36,90.61,3338.11,Yearly,Bank Transfer,DSL,1,2,9,Basic,7,44,No
+C048,60,Female,Coimbatore,36,65.42,2447.79,Monthly,Debit Card,DSL,7,2,11,Premium,5,14,No
+C049,30,Female,Bengaluru,48,97.41,4440.14,Monthly,Credit Card,None,4,5,20,Standard,9,38,Yes
+C050,24,Male,Pune,15,53.72,832.62,Monthly,Credit Card,DSL,0,4,11,Basic,3,40,Yes
+C051,49,Male,Chennai,37,70.48,2541.3,Monthly,UPI,DSL,1,0,14,Standard,8,4,No
+C052,61,Male,Hyderabad,10,115.17,1075.26,Yearly,Credit Card,Fiber,6,4,21,Premium,10,14,Yes
+C053,42,Female,Coimbatore,20,119.05,2306.86,2-Year,UPI,None,1,1,22,Premium,4,16,No
+C054,28,Male,Hyderabad,36,25.25,901.8,Monthly,Bank Transfer,DSL,3,2,24,Basic,5,44,Yes
+C055,22,Male,Pune,51,81.03,4333.47,Yearly,Credit Card,DSL,8,1,22,Basic,3,58,Yes
+C056,27,Male,Chennai,11,81.53,943.36,Yearly,Debit Card,DSL,7,5,11,Basic,7,60,Yes
+C057,52,Female,Coimbatore,6,109.5,681.65,Yearly,Debit Card,Fiber,3,5,28,Basic,10,37,Yes
+C058,66,Female,Chennai,49,69.7,3498.09,Yearly,Debit Card,Fiber,6,5,28,Premium,8,5,No
+C059,44,Female,Delhi,43,40.28,1707.55,Monthly,Bank Transfer,DSL,6,4,3,Premium,8,5,Yes
+C060,38,Male,Kochi,56,118.87,6824.64,Monthly,Bank Transfer,DSL,3,4,13,Basic,10,48,Yes
+C061,46,Male,Mumbai,18,113.13,2016.18,Monthly,Bank Transfer,Fiber,3,5,7,Basic,5,35,Yes
+C062,44,Male,Mumbai,54,68.84,3489.84,2-Year,Credit Card,DSL,4,4,24,Premium,5,26,No
+C063,48,Male,Coimbatore,36,43.11,1576.64,Monthly,Credit Card,Fiber,6,2,27,Standard,9,17,Yes
+C064,36,Female,Coimbatore,56,76.17,4159.82,Monthly,Bank Transfer,DSL,3,5,9,Standard,10,24,No
+C065,67,Female,Chennai,21,92.0,2028.26,Yearly,Bank Transfer,None,2,3,3,Premium,3,32,Yes
+C066,39,Male,Coimbatore,7,68.41,495.91,Monthly,Bank Transfer,None,1,3,27,Basic,5,21,Yes
+C067,43,Male,Delhi,55,75.69,4465.44,Yearly,Bank Transfer,None,1,1,22,Basic,5,14,No
+C068,45,Male,Bengaluru,29,53.45,1433.23,Monthly,Debit Card,Fiber,5,2,15,Standard,3,15,Yes
+C069,54,Male,Hyderabad,12,107.73,1317.52,Monthly,Credit Card,DSL,2,1,16,Premium,5,29,No
+C070,18,Female,Pune,44,32.02,1509.25,Monthly,Debit Card,None,4,3,29,Standard,5,12,Yes
+C071,48,Male,Mumbai,25,79.61,2147.14,Yearly,Debit Card,Fiber,6,2,2,Premium,10,55,No
+C072,65,Male,Coimbatore,54,52.19,2953.02,2-Year,Debit Card,Fiber,3,4,10,Premium,3,40,No
+C073,58,Male,Pune,51,80.06,4234.86,Monthly,UPI,DSL,6,1,8,Standard,3,50,Yes
+C074,41,Female,Hyderabad,17,114.7,2095.72,2-Year,Debit Card,None,1,3,4,Standard,3,48,Yes
+C075,61,Female,Delhi,6,26.32,158.84,Yearly,Bank Transfer,DSL,4,4,14,Premium,6,6,Yes
+C076,48,Male,Delhi,59,86.53,5215.87,Yearly,Bank Transfer,None,6,0,6,Standard,1,60,No
+C077,49,Male,Bengaluru,16,37.89,601.74,2-Year,Bank Transfer,None,2,3,22,Premium,2,53,No
+C078,44,Female,Chennai,45,67.12,3238.14,Monthly,Debit Card,Fiber,5,4,30,Premium,6,3,Yes
+C079,30,Male,Coimbatore,6,85.96,523.78,Yearly,UPI,Fiber,3,1,27,Standard,10,13,No
+C080,66,Male,Mumbai,53,56.21,2811.13,2-Year,UPI,DSL,2,4,10,Basic,3,7,No
+C081,19,Male,Chennai,23,47.6,1063.93,Yearly,Credit Card,DSL,2,5,15,Basic,9,7,No
+C082,48,Female,Delhi,33,67.94,2142.13,Yearly,UPI,None,8,2,16,Premium,1,3,Yes
+C083,43,Female,Bengaluru,32,67.14,2285.73,Yearly,Debit Card,None,1,1,10,Basic,10,40,No
+C084,63,Female,Kochi,39,68.1,2700.7,Monthly,UPI,None,8,5,29,Basic,4,27,Yes
+C085,32,Female,Delhi,53,64.52,3198.02,Monthly,Bank Transfer,DSL,4,2,6,Premium,8,4,No
+C086,23,Male,Kochi,7,60.4,397.78,Yearly,UPI,None,8,2,23,Premium,2,26,Yes
+C087,60,Female,Chennai,19,58.41,1123.63,Yearly,Credit Card,Fiber,7,1,29,Premium,2,22,Yes
+C088,41,Male,Pune,37,65.77,2457.23,Monthly,UPI,None,4,0,7,Premium,5,44,Yes
+C089,39,Female,Chennai,12,78.8,930.59,2-Year,Credit Card,None,0,0,25,Premium,9,13,No
+C090,47,Female,Hyderabad,24,55.82,1434.3,Monthly,UPI,Fiber,2,4,3,Basic,2,17,Yes
+C091,45,Female,Coimbatore,27,96.72,2450.08,Monthly,Bank Transfer,Fiber,7,4,23,Standard,5,2,Yes
+C092,56,Male,Chennai,14,45.07,594.36,Monthly,Debit Card,DSL,1,0,17,Standard,7,11,No
+C093,52,Male,Delhi,5,95.49,472.58,Monthly,Bank Transfer,Fiber,6,4,14,Standard,7,18,Yes
+C094,19,Female,Hyderabad,52,68.71,3681.31,2-Year,Debit Card,Fiber,1,1,15,Standard,10,25,No
+C095,43,Female,Delhi,15,40.97,615.58,Monthly,UPI,None,3,2,13,Premium,3,15,No
+C096,34,Male,Hyderabad,39,97.12,3530.33,Monthly,Bank Transfer,DSL,7,5,30,Premium,10,41,Yes
+C097,57,Female,Delhi,10,69.55,710.12,Monthly,Debit Card,None,5,4,4,Basic,5,29,Yes
+C098,21,Female,Pune,5,117.85,550.62,Yearly,Bank Transfer,DSL,8,5,30,Premium,1,28,Yes
+C099,54,Male,Delhi,39,39.33,1426.35,Monthly,UPI,DSL,1,4,22,Premium,3,2,Yes
+C100,46,Female,Hyderabad,24,51.87,1226.71,Monthly,Debit Card,None,0,5,22,Premium,6,4,Yes
+C101,53,Female,Pune,17,87.37,1581.86,Yearly,Credit Card,DSL,2,2,11,Basic,7,8,No
+C102,23,Female,Kochi,42,102.25,4411.39,Yearly,UPI,None,6,4,13,Premium,1,23,Yes
+C103,31,Female,Coimbatore,13,38.07,461.43,Monthly,UPI,None,8,0,23,Premium,6,56,Yes
+C104,26,Female,Hyderabad,11,90.82,1018.96,Monthly,Credit Card,None,0,3,13,Standard,4,28,Yes
+C105,66,Female,Mumbai,35,116.73,4271.44,Monthly,Credit Card,DSL,7,3,26,Premium,5,49,Yes
+C106,51,Female,Hyderabad,53,82.44,4630.08,Monthly,UPI,None,5,4,5,Standard,9,54,Yes
+C107,23,Male,Pune,29,39.0,1119.69,2-Year,Credit Card,DSL,0,3,3,Standard,7,32,No
+C108,42,Male,Delhi,15,113.43,1793.78,Monthly,Debit Card,Fiber,0,2,28,Basic,8,44,Yes
+C109,66,Female,Coimbatore,40,32.53,1250.39,Monthly,Credit Card,None,8,3,5,Premium,5,15,Yes
+C110,21,Male,Kochi,41,68.43,2630.94,Yearly,Bank Transfer,None,0,5,18,Premium,10,15,No
+C111,36,Female,Chennai,40,79.21,3009.89,Monthly,UPI,None,1,4,19,Standard,9,50,Yes
+C112,53,Male,Kochi,56,85.39,5149.88,Monthly,Debit Card,None,5,0,13,Basic,4,46,Yes
+C113,24,Female,Hyderabad,3,57.16,175.4,Monthly,Bank Transfer,None,2,1,4,Standard,8,2,No
+C114,20,Male,Chennai,21,73.96,1674.71,2-Year,Bank Transfer,DSL,3,2,13,Basic,1,55,No
+C115,35,Male,Delhi,28,95.61,2846.12,2-Year,Bank Transfer,DSL,7,5,17,Basic,6,59,Yes
+C116,35,Male,Kochi,6,119.53,680.51,Monthly,Debit Card,DSL,1,2,23,Basic,5,19,Yes
+C117,63,Female,Hyderabad,45,67.48,3146.8,Monthly,Debit Card,None,4,5,27,Standard,1,4,Yes
+C118,43,Female,Hyderabad,2,82.72,172.89,Monthly,UPI,Fiber,3,5,13,Basic,6,24,Yes
+C119,20,Male,Coimbatore,24,97.49,2367.43,Monthly,Debit Card,DSL,4,1,5,Standard,1,47,Yes
+C120,51,Female,Bengaluru,17,91.88,1490.63,Yearly,Debit Card,None,3,0,6,Standard,2,28,No
+C121,63,Female,Bengaluru,52,105.32,5318.55,Yearly,Debit Card,None,8,4,11,Basic,5,54,No
+C122,63,Male,Delhi,33,118.59,4096.35,Monthly,Credit Card,DSL,5,4,20,Basic,6,29,Yes
+C123,53,Male,Bengaluru,5,119.96,620.8,Monthly,Bank Transfer,DSL,1,1,12,Premium,2,28,Yes
+C124,51,Female,Hyderabad,57,77.37,4472.03,Yearly,Credit Card,DSL,0,0,18,Premium,3,19,No
+C125,38,Male,Delhi,34,105.36,3439.3,2-Year,Debit Card,Fiber,4,4,19,Premium,2,32,Yes
+C126,55,Male,Hyderabad,43,110.69,4636.01,Yearly,UPI,Fiber,0,5,26,Basic,10,16,No
+C127,67,Female,Chennai,32,76.83,2514.38,2-Year,Debit Card,DSL,6,2,16,Basic,2,44,No
+C128,46,Female,Coimbatore,30,82.63,2404.57,Monthly,Debit Card,None,6,1,26,Standard,6,32,Yes
+C129,38,Male,Coimbatore,8,48.55,363.34,Monthly,Debit Card,DSL,6,1,29,Premium,3,52,Yes
+C130,54,Female,Mumbai,49,119.62,5830.26,Monthly,Debit Card,DSL,1,3,18,Basic,8,15,Yes
+C131,40,Male,Chennai,19,108.82,2118.61,Monthly,Bank Transfer,DSL,0,0,15,Premium,3,56,Yes
+C132,41,Female,Delhi,3,79.18,225.93,Monthly,Debit Card,Fiber,8,3,26,Standard,9,17,Yes
+C133,57,Male,Hyderabad,7,100.52,685.52,Monthly,Debit Card,Fiber,8,3,18,Basic,1,2,Yes
+C134,63,Female,Coimbatore,34,82.59,2815.03,Monthly,Debit Card,None,2,3,21,Standard,5,37,Yes
+C135,50,Female,Pune,31,59.99,1911.41,Yearly,Bank Transfer,None,0,4,17,Standard,5,41,Yes
+C136,67,Male,Chennai,38,74.8,2942.99,Monthly,Bank Transfer,Fiber,3,0,20,Premium,2,12,No
+C137,38,Female,Hyderabad,27,63.99,1803.74,Yearly,Bank Transfer,None,0,5,6,Premium,9,13,No
+C138,60,Female,Kochi,21,68.67,1449.71,2-Year,Debit Card,None,4,4,17,Premium,4,15,No
+C139,37,Male,Pune,50,44.69,2307.79,Monthly,Debit Card,DSL,8,5,10,Standard,5,7,Yes
+C140,52,Female,Kochi,53,98.44,4922.21,Monthly,UPI,DSL,1,2,16,Premium,5,47,Yes
+C141,30,Female,Pune,9,95.38,822.61,Monthly,UPI,None,3,5,9,Premium,1,6,Yes
+C142,63,Female,Bengaluru,44,25.49,1130.6,Yearly,Credit Card,DSL,7,3,22,Premium,4,48,Yes
+C143,38,Female,Chennai,59,86.97,4911.38,Yearly,UPI,Fiber,2,0,28,Standard,7,50,No
+C144,65,Female,Chennai,1,82.26,87.9,Monthly,Debit Card,DSL,8,4,17,Standard,3,54,Yes
+C145,35,Male,Bengaluru,22,68.6,1450.59,Monthly,Credit Card,Fiber,5,2,20,Premium,4,11,Yes
+C146,58,Female,Kochi,33,63.08,1946.88,Monthly,Credit Card,DSL,3,0,10,Standard,7,15,No
+C147,35,Female,Pune,38,26.09,1015.8,Yearly,Credit Card,Fiber,1,3,11,Premium,3,25,No
+C148,63,Female,Bengaluru,41,53.03,2214.11,2-Year,Credit Card,Fiber,2,3,25,Standard,10,23,No
+C149,53,Female,Mumbai,49,96.7,5021.18,Monthly,UPI,None,8,5,13,Standard,2,58,Yes
+C150,21,Male,Hyderabad,11,74.43,768.46,Monthly,Credit Card,None,7,0,30,Premium,9,28,Yes
+C151,47,Male,Kochi,30,78.09,2407.46,Yearly,Debit Card,None,6,2,28,Basic,1,47,No
+C152,22,Male,Kochi,23,76.41,1633.78,Yearly,UPI,DSL,4,3,7,Basic,3,49,Yes
+C153,64,Female,Delhi,58,107.61,6647.59,Monthly,Bank Transfer,Fiber,8,1,22,Premium,6,7,No
+C154,52,Female,Hyderabad,47,104.31,5103.52,2-Year,Debit Card,DSL,8,3,19,Premium,7,52,No
+C155,47,Female,Hyderabad,18,108.14,2029.21,Monthly,UPI,None,0,1,8,Standard,2,6,Yes
+C156,46,Male,Mumbai,48,66.7,3221.97,Monthly,UPI,Fiber,4,1,28,Premium,10,20,No
+C157,67,Female,Mumbai,20,118.64,2380.87,2-Year,Bank Transfer,DSL,0,4,20,Standard,3,40,Yes
+C158,53,Female,Chennai,23,88.78,2135.32,2-Year,Debit Card,None,6,1,11,Standard,7,11,No
+C159,48,Male,Mumbai,20,38.71,769.62,2-Year,UPI,None,6,4,18,Standard,3,24,No
+C160,31,Female,Bengaluru,60,60.25,3635.61,Monthly,Credit Card,Fiber,6,5,21,Standard,10,2,Yes
+C161,30,Male,Coimbatore,14,56.63,850.79,2-Year,UPI,Fiber,1,5,26,Basic,8,58,No
+C162,56,Male,Kochi,59,55.55,3163.69,Monthly,Bank Transfer,None,5,2,10,Premium,6,32,Yes
+C163,47,Male,Coimbatore,49,111.86,5367.75,Yearly,Bank Transfer,Fiber,3,5,6,Premium,1,16,Yes
+C164,55,Female,Pune,10,46.85,473.73,Monthly,Credit Card,DSL,5,2,26,Premium,8,46,Yes
+C165,49,Female,Hyderabad,47,41.08,1998.82,Yearly,Bank Transfer,Fiber,0,4,3,Premium,2,60,Yes
+C166,21,Male,Kochi,9,46.99,436.93,Yearly,UPI,Fiber,7,2,3,Premium,10,40,Yes
+C167,57,Female,Coimbatore,2,77.41,142.73,Monthly,Debit Card,None,0,4,28,Standard,7,51,Yes
+C168,29,Male,Bengaluru,34,43.23,1476.04,Monthly,Debit Card,DSL,1,2,14,Standard,8,36,No
+C169,62,Male,Pune,44,32.66,1550.09,Yearly,UPI,Fiber,6,3,19,Standard,8,3,No
+C170,62,Male,Bengaluru,32,86.27,2686.11,Yearly,UPI,None,3,1,30,Basic,10,30,No
+C171,22,Female,Chennai,12,54.88,707.18,2-Year,Credit Card,None,1,2,7,Standard,10,15,No
+C172,42,Female,Kochi,49,100.1,5053.47,Yearly,UPI,None,5,0,5,Premium,7,14,No
+C173,39,Female,Delhi,2,99.44,197.31,Yearly,Credit Card,DSL,6,3,7,Premium,10,42,Yes
+C174,67,Female,Mumbai,46,50.46,2276.59,Monthly,Credit Card,None,5,2,5,Standard,2,0,Yes
+C175,46,Female,Pune,7,42.8,297.15,Monthly,Bank Transfer,Fiber,1,2,19,Basic,2,38,Yes
+C176,38,Female,Chennai,19,99.02,1949.06,Monthly,Credit Card,None,2,5,14,Premium,3,8,Yes
+C177,35,Female,Hyderabad,5,51.22,247.89,Monthly,UPI,DSL,3,5,22,Standard,8,38,Yes
+C178,47,Male,Hyderabad,20,62.59,1320.22,Monthly,Bank Transfer,DSL,5,3,28,Standard,10,8,Yes
+C179,56,Male,Coimbatore,21,62.83,1281.25,Monthly,Bank Transfer,None,5,3,10,Basic,7,23,Yes
+C180,54,Male,Hyderabad,44,27.56,1256.72,Yearly,Credit Card,DSL,1,3,23,Standard,8,8,No
+C181,33,Female,Hyderabad,46,60.81,2774.46,Monthly,Bank Transfer,None,8,4,29,Standard,7,34,Yes
+C182,41,Male,Bengaluru,50,88.15,4172.2,Monthly,UPI,None,6,2,27,Premium,7,6,No
+C183,34,Male,Mumbai,29,68.99,2058.19,Monthly,Credit Card,DSL,7,0,11,Basic,7,58,Yes
+C184,25,Male,Delhi,20,99.51,1996.92,Monthly,Debit Card,DSL,7,5,24,Basic,8,20,Yes
+C185,20,Male,Chennai,55,35.39,2039.9,Monthly,Credit Card,None,8,1,12,Basic,9,27,Yes
+C186,32,Female,Hyderabad,12,66.05,732.89,Yearly,Credit Card,DSL,6,3,2,Premium,4,13,Yes
+C187,63,Male,Bengaluru,52,42.76,2161.61,2-Year,Bank Transfer,Fiber,7,4,22,Standard,6,38,No
+C188,43,Male,Delhi,23,83.65,2020.53,Yearly,Debit Card,None,1,5,6,Premium,6,7,No
+C189,25,Male,Delhi,45,61.9,2828.48,Monthly,Bank Transfer,DSL,7,5,19,Basic,3,35,Yes
+C190,36,Male,Hyderabad,21,83.84,1863.61,Yearly,UPI,DSL,3,3,19,Basic,9,41,Yes
+C191,61,Female,Kochi,46,71.43,3066.38,Yearly,UPI,Fiber,0,2,9,Standard,9,18,No
+C192,47,Female,Bengaluru,37,98.64,3838.46,Monthly,Debit Card,None,7,4,8,Basic,7,6,Yes
+C193,59,Male,Pune,56,67.72,3700.44,2-Year,UPI,DSL,3,1,27,Basic,10,44,No
+C194,63,Female,Hyderabad,40,44.63,1701.49,Monthly,UPI,None,8,2,21,Standard,9,10,No
+C195,63,Female,Pune,37,106.51,4246.99,Monthly,UPI,Fiber,0,2,29,Standard,3,44,Yes
+C196,33,Male,Delhi,54,105.14,5580.09,Monthly,Credit Card,None,4,5,15,Premium,7,28,No
+C197,68,Male,Kochi,33,91.0,3184.29,Yearly,Bank Transfer,DSL,0,5,4,Standard,8,40,Yes
+C198,40,Male,Kochi,14,103.36,1445.82,2-Year,Debit Card,DSL,8,4,6,Standard,10,54,Yes
+C199,39,Male,Chennai,7,104.49,674.82,Yearly,Credit Card,DSL,0,3,8,Standard,3,56,Yes
+C200,28,Female,Bengaluru,42,32.83,1415.15,Monthly,Credit Card,Fiber,4,5,24,Standard,4,27,Yes
+C201,63,Male,Chennai,14,37.61,503.47,Monthly,Bank Transfer,Fiber,5,0,29,Basic,7,44,Yes
+C202,22,Male,Kochi,6,34.73,202.16,Yearly,Debit Card,Fiber,2,5,23,Standard,3,4,Yes
+C203,18,Male,Coimbatore,23,84.67,1838.78,Yearly,Bank Transfer,None,7,1,4,Premium,2,8,Yes
+C204,55,Female,Delhi,28,38.28,1033.59,Monthly,UPI,Fiber,4,5,2,Premium,5,13,Yes
+C205,50,Male,Kochi,19,99.46,1978.57,Yearly,Credit Card,DSL,1,1,17,Standard,10,4,No
+C206,18,Female,Delhi,9,104.7,930.37,Monthly,Credit Card,DSL,0,4,4,Basic,1,16,Yes
+C207,21,Female,Pune,41,97.88,3964.01,Yearly,Bank Transfer,Fiber,8,4,21,Premium,3,17,Yes
+C208,23,Male,Hyderabad,35,80.71,2943.82,Monthly,UPI,DSL,6,5,29,Premium,4,3,Yes
+C209,45,Male,Coimbatore,40,54.38,2259.32,Yearly,Credit Card,Fiber,2,5,2,Basic,3,31,Yes
+C210,51,Female,Hyderabad,24,99.21,2292.95,Monthly,UPI,Fiber,6,2,18,Standard,2,16,Yes
+C211,54,Male,Coimbatore,30,30.27,960.31,Monthly,Credit Card,DSL,4,0,30,Basic,10,43,Yes
+C212,32,Male,Chennai,55,48.23,2640.67,2-Year,Bank Transfer,Fiber,0,4,27,Basic,7,14,No
+C213,44,Female,Pune,53,60.42,3203.31,Monthly,UPI,Fiber,8,0,14,Basic,2,56,Yes
+C214,36,Female,Delhi,6,25.76,147.16,Yearly,Debit Card,None,3,3,13,Premium,10,31,Yes
+C215,67,Male,Mumbai,10,63.95,612.18,Monthly,Debit Card,None,0,2,2,Premium,7,54,Yes
+C216,37,Male,Mumbai,34,64.88,2368.69,2-Year,Credit Card,None,1,0,9,Standard,9,26,No
+C217,41,Female,Bengaluru,38,37.68,1505.14,Monthly,UPI,None,0,3,23,Premium,3,15,Yes
+C218,38,Female,Delhi,21,47.19,1061.32,Monthly,Credit Card,None,2,0,7,Basic,8,29,No
+C219,25,Female,Mumbai,29,50.18,1366.72,Monthly,Credit Card,None,0,1,28,Standard,6,9,No
+C220,33,Female,Kochi,33,53.39,1852.1,Monthly,Credit Card,Fiber,7,4,25,Standard,9,15,Yes
+C221,24,Male,Bengaluru,1,99.19,94.78,Monthly,Credit Card,DSL,1,4,20,Standard,5,58,Yes
+C222,19,Male,Mumbai,58,101.88,5523.28,Yearly,Debit Card,Fiber,7,0,7,Basic,10,27,No
+C223,43,Female,Chennai,25,41.42,988.23,Yearly,Credit Card,DSL,7,1,3,Standard,10,39,No
+C224,59,Female,Coimbatore,27,70.51,1778.19,2-Year,Bank Transfer,Fiber,3,5,30,Standard,9,15,No
+C225,69,Male,Kochi,51,70.57,3761.13,Yearly,Debit Card,None,5,3,10,Premium,3,1,No
+C226,32,Male,Pune,4,69.81,272.87,Yearly,Credit Card,Fiber,3,5,9,Basic,5,34,Yes
+C227,65,Male,Mumbai,37,100.75,3641.15,Yearly,Credit Card,Fiber,5,5,24,Basic,6,58,Yes
+C228,63,Female,Hyderabad,37,104.49,4058.14,2-Year,Bank Transfer,None,2,3,3,Standard,2,3,No
+C229,32,Male,Coimbatore,1,83.34,87.43,Monthly,Debit Card,None,5,0,2,Basic,3,37,Yes
+C230,27,Male,Delhi,5,114.48,562.84,Monthly,UPI,DSL,5,1,7,Standard,7,50,Yes
+C231,49,Female,Hyderabad,46,90.89,4467.82,2-Year,Debit Card,Fiber,2,3,11,Premium,5,8,No
+C232,18,Female,Chennai,12,112.5,1450.99,Yearly,Credit Card,None,1,3,6,Premium,6,47,No
+C233,40,Female,Hyderabad,41,33.43,1416.46,2-Year,Debit Card,DSL,4,1,9,Basic,2,22,No
+C234,24,Male,Chennai,25,64.87,1535.17,Monthly,Bank Transfer,DSL,5,4,14,Standard,2,53,Yes
+C235,54,Male,Hyderabad,29,105.35,2954.9,Monthly,Debit Card,DSL,1,2,7,Basic,7,10,Yes
+C236,53,Male,Delhi,39,109.86,4424.73,2-Year,Bank Transfer,None,6,1,3,Basic,2,21,No
+C237,30,Female,Pune,43,47.57,1898.11,Monthly,Bank Transfer,Fiber,5,0,15,Basic,2,18,Yes
+C238,58,Female,Mumbai,7,41.23,279.0,Monthly,UPI,DSL,4,3,17,Basic,8,57,Yes
+C239,23,Female,Hyderabad,24,60.09,1429.65,2-Year,Debit Card,DSL,4,1,28,Standard,5,36,No
+C240,66,Male,Bengaluru,43,76.44,3534.47,Monthly,Credit Card,None,6,4,15,Basic,9,43,Yes
+C241,48,Male,Coimbatore,20,110.76,2291.16,Monthly,Credit Card,Fiber,2,1,8,Standard,4,8,Yes
+C242,23,Female,Mumbai,53,104.24,5310.7,Yearly,UPI,Fiber,8,3,19,Standard,6,54,Yes
+C243,47,Male,Kochi,8,39.08,317.04,Monthly,UPI,Fiber,1,2,29,Premium,9,56,Yes
+C244,44,Female,Kochi,42,82.85,3222.18,Monthly,Debit Card,DSL,6,0,14,Basic,6,44,Yes
+C245,65,Female,Pune,58,57.1,3467.4,Monthly,Debit Card,DSL,1,1,6,Standard,5,47,No
+C246,70,Female,Pune,47,86.33,3854.92,Monthly,Credit Card,DSL,7,4,29,Premium,6,52,Yes
+C247,68,Male,Bengaluru,20,63.32,1323.24,Yearly,UPI,Fiber,3,0,9,Basic,1,29,No
+C248,41,Male,Pune,24,72.99,1789.71,Yearly,UPI,None,3,2,17,Basic,10,28,No
+C249,48,Female,Delhi,11,49.57,574.14,Yearly,UPI,DSL,6,0,7,Basic,10,49,Yes
+C250,32,Male,Mumbai,18,73.76,1405.14,Yearly,UPI,DSL,2,4,27,Basic,1,14,No
+C251,69,Female,Pune,28,105.9,2945.75,2-Year,Credit Card,DSL,8,4,14,Standard,10,6,No
+C252,60,Female,Pune,20,70.77,1378.32,Yearly,Debit Card,None,4,2,22,Standard,5,12,No
+C253,66,Male,Chennai,52,101.95,5220.05,2-Year,Debit Card,None,0,5,17,Basic,5,16,No
+C254,43,Female,Chennai,38,79.34,2865.34,Yearly,Credit Card,None,7,5,13,Premium,9,19,Yes
+C255,60,Male,Pune,7,95.39,691.79,Monthly,Credit Card,None,1,1,13,Standard,4,47,Yes
+C256,44,Female,Delhi,17,69.06,1102.22,Yearly,UPI,None,1,3,30,Premium,4,32,No
+C257,61,Female,Pune,27,106.15,2699.76,Monthly,Credit Card,DSL,7,1,12,Standard,3,49,Yes
+C258,39,Male,Delhi,41,67.95,2656.41,Monthly,Credit Card,None,7,0,6,Basic,10,27,Yes
+C259,43,Female,Coimbatore,25,75.71,1962.6,Monthly,UPI,DSL,3,0,23,Premium,1,40,Yes
+C260,32,Female,Pune,9,72.82,635.05,Monthly,UPI,Fiber,4,3,25,Standard,9,38,Yes
+C261,45,Male,Delhi,58,96.26,5283.72,Monthly,Bank Transfer,Fiber,3,5,6,Basic,4,46,Yes
+C262,50,Male,Bengaluru,24,100.25,2357.95,Yearly,Debit Card,None,0,4,3,Premium,2,41,Yes
+C263,21,Male,Kochi,29,76.99,2223.56,Monthly,Credit Card,Fiber,0,2,15,Premium,2,42,Yes
+C264,57,Male,Kochi,54,73.6,4049.24,2-Year,Debit Card,Fiber,7,1,21,Basic,4,49,No
+C265,51,Male,Delhi,46,40.24,1865.3,Monthly,Credit Card,None,5,1,2,Standard,1,42,Yes
+C266,25,Female,Hyderabad,6,32.13,199.68,Yearly,Debit Card,None,7,2,10,Basic,8,3,No
+C267,29,Male,Pune,24,54.71,1363.15,Yearly,UPI,Fiber,2,5,22,Basic,3,21,No
+C268,46,Female,Bengaluru,24,42.37,1000.74,Yearly,Bank Transfer,DSL,7,3,22,Standard,3,7,Yes
+C269,64,Male,Hyderabad,7,81.12,595.3,Monthly,Bank Transfer,Fiber,6,2,21,Premium,1,55,Yes
+C270,64,Male,Coimbatore,59,109.32,6388.67,Monthly,UPI,DSL,5,0,24,Premium,9,49,Yes
+C271,64,Male,Delhi,34,91.56,2911.44,Monthly,Credit Card,DSL,6,1,28,Standard,9,57,Yes
+C272,21,Male,Hyderabad,33,105.93,3702.31,Yearly,UPI,DSL,3,2,10,Standard,1,32,No
+C273,59,Female,Kochi,53,68.61,3811.61,Monthly,Bank Transfer,Fiber,7,2,5,Standard,8,47,Yes
+C274,24,Female,Kochi,3,25.02,70.15,Yearly,Debit Card,None,3,5,23,Premium,8,60,Yes
+C275,70,Male,Mumbai,55,78.21,4383.97,Monthly,Bank Transfer,None,5,5,16,Premium,2,6,Yes
+C276,32,Male,Delhi,23,116.62,2592.99,Yearly,Debit Card,None,0,1,17,Basic,3,52,Yes
+C277,64,Female,Bengaluru,17,42.82,778.05,Yearly,Bank Transfer,Fiber,3,5,12,Standard,2,48,Yes
+C278,58,Male,Coimbatore,30,115.84,3272.05,Yearly,Bank Transfer,Fiber,0,4,15,Premium,10,30,Yes
+C279,67,Male,Hyderabad,47,34.84,1678.75,Yearly,Debit Card,None,6,4,24,Standard,4,17,Yes
+C280,39,Female,Coimbatore,52,64.21,3445.77,Monthly,Debit Card,None,5,5,25,Premium,9,40,Yes
+C281,31,Female,Delhi,59,118.23,7143.08,Yearly,Credit Card,None,5,5,5,Premium,6,35,Yes
+C282,54,Female,Pune,57,101.79,5823.13,Yearly,UPI,DSL,0,5,3,Basic,4,17,Yes
+C283,28,Female,Pune,10,90.61,876.4,Yearly,UPI,DSL,1,4,29,Standard,9,55,Yes
+C284,59,Female,Mumbai,33,100.89,3216.25,Yearly,UPI,DSL,6,5,12,Standard,9,3,No
+C285,34,Male,Coimbatore,54,85.21,4755.61,Monthly,Debit Card,None,3,5,8,Premium,5,28,No
+C286,61,Male,Hyderabad,12,36.34,404.03,Yearly,Debit Card,None,2,1,20,Standard,5,0,No
+C287,63,Male,Chennai,10,81.7,852.77,2-Year,Debit Card,DSL,8,2,4,Premium,6,33,No
+C288,29,Male,Hyderabad,27,63.32,1668.45,Monthly,Credit Card,None,5,2,11,Standard,4,60,Yes
+C289,51,Female,Chennai,8,67.34,573.59,Yearly,Credit Card,Fiber,5,3,27,Premium,2,24,Yes
+C290,64,Female,Chennai,59,98.2,5807.06,Monthly,Bank Transfer,DSL,4,5,8,Basic,6,32,Yes
+C291,24,Male,Chennai,41,88.68,3795.03,Monthly,Bank Transfer,Fiber,8,5,30,Basic,7,41,Yes
+C292,22,Male,Chennai,30,28.6,799.42,Yearly,Credit Card,DSL,1,4,28,Premium,4,58,Yes
+C293,42,Female,Kochi,28,62.0,1629.98,Monthly,UPI,None,1,5,20,Premium,1,44,Yes
+C294,40,Male,Pune,51,82.62,4066.32,Yearly,Bank Transfer,DSL,0,3,7,Standard,9,14,No
+C295,43,Female,Hyderabad,20,111.85,2342.59,Yearly,Debit Card,Fiber,8,1,5,Premium,1,0,Yes
+C296,43,Male,Pune,14,110.84,1512.99,Yearly,Bank Transfer,None,2,1,7,Premium,4,39,Yes
+C297,30,Male,Hyderabad,43,105.96,4812.44,Yearly,Bank Transfer,None,1,2,23,Premium,2,16,No
+C298,64,Female,Delhi,23,87.27,1878.76,Monthly,UPI,Fiber,7,3,12,Standard,10,42,Yes
+C299,55,Male,Delhi,52,65.69,3145.25,Monthly,Credit Card,Fiber,6,2,28,Premium,6,8,Yes
+C300,39,Female,Coimbatore,29,54.02,1579.53,Monthly,Credit Card,None,1,2,29,Premium,3,57,Yes
+C301,34,Male,Bengaluru,58,73.18,3926.07,Monthly,Bank Transfer,None,0,4,10,Basic,9,57,Yes
+C302,48,Male,Delhi,26,98.35,2652.52,Monthly,Debit Card,Fiber,8,4,4,Standard,7,23,Yes
+C303,60,Male,Hyderabad,49,67.39,3132.59,Monthly,Credit Card,None,7,2,3,Premium,4,48,Yes
+C304,22,Female,Delhi,15,44.64,713.28,Monthly,Debit Card,DSL,7,0,3,Standard,6,6,Yes
+C305,51,Female,Pune,38,41.52,1616.55,Monthly,Debit Card,None,1,4,10,Premium,7,58,Yes
+C306,43,Female,Delhi,32,109.28,3220.89,Yearly,Credit Card,DSL,3,0,18,Basic,5,13,No
+C307,28,Female,Bengaluru,43,102.06,4543.24,Monthly,Bank Transfer,None,7,1,20,Standard,3,41,Yes
+C308,19,Male,Chennai,9,40.31,370.31,Yearly,UPI,None,0,1,10,Basic,3,33,Yes
+C309,56,Male,Pune,6,82.62,493.45,Monthly,Bank Transfer,Fiber,6,4,6,Basic,10,52,Yes
+C310,57,Female,Hyderabad,47,112.62,5374.89,Yearly,UPI,Fiber,6,1,5,Standard,1,12,No
+C311,50,Female,Hyderabad,39,70.21,2788.46,Monthly,UPI,None,1,0,17,Premium,3,57,Yes
+C312,70,Male,Kochi,34,108.11,3791.98,Monthly,Bank Transfer,Fiber,6,2,20,Standard,10,6,Yes
+C313,34,Female,Mumbai,59,51.91,3247.32,2-Year,Bank Transfer,DSL,0,5,25,Basic,1,36,No
+C314,51,Male,Kochi,42,101.41,4197.1,Monthly,UPI,Fiber,4,2,29,Standard,9,27,No
+C315,57,Female,Kochi,49,77.45,3830.0,Monthly,Credit Card,DSL,8,3,10,Premium,5,36,Yes
+C316,63,Female,Hyderabad,55,36.31,1910.7,2-Year,Credit Card,Fiber,8,3,27,Basic,6,51,No
+C317,62,Male,Hyderabad,25,25.5,595.79,2-Year,Credit Card,DSL,6,0,4,Premium,5,14,No
+C318,56,Male,Kochi,60,83.33,5016.6,2-Year,UPI,Fiber,7,3,2,Premium,4,54,Yes
+C319,69,Female,Mumbai,3,73.5,227.5,Yearly,Credit Card,None,5,1,22,Basic,1,10,No
+C320,35,Female,Delhi,43,80.68,3479.09,Monthly,UPI,Fiber,4,5,28,Premium,9,58,Yes
+C321,40,Female,Mumbai,39,68.2,2618.93,2-Year,UPI,DSL,6,4,5,Basic,9,4,No
+C322,39,Male,Pune,57,100.37,5492.38,Monthly,Bank Transfer,DSL,7,1,26,Premium,6,49,Yes
+C323,47,Male,Coimbatore,8,61.35,513.47,Monthly,Credit Card,None,3,2,15,Premium,6,33,Yes
+C324,62,Female,Mumbai,19,89.0,1777.87,Monthly,UPI,None,7,2,13,Basic,4,57,Yes
+C325,29,Male,Coimbatore,48,94.87,4825.34,Monthly,Credit Card,Fiber,3,4,13,Basic,3,49,Yes
+C326,23,Female,Chennai,49,116.01,6001.01,2-Year,Debit Card,None,7,4,29,Standard,5,31,No
+C327,66,Female,Kochi,15,37.18,560.0,Yearly,Bank Transfer,DSL,0,4,13,Premium,7,55,No
+C328,29,Female,Bengaluru,45,54.99,2279.92,Monthly,Credit Card,DSL,1,2,13,Premium,10,55,No
+C329,53,Female,Mumbai,18,83.24,1466.18,Monthly,Bank Transfer,DSL,6,5,26,Basic,6,23,Yes
+C330,35,Female,Hyderabad,37,79.71,2821.19,Monthly,UPI,None,3,4,15,Standard,7,12,No
+C331,65,Male,Coimbatore,52,65.04,3184.28,Monthly,Debit Card,DSL,4,4,29,Standard,10,3,No
+C332,62,Male,Chennai,14,70.27,1004.22,Yearly,Bank Transfer,None,4,2,13,Standard,9,35,No
+C333,34,Female,Chennai,27,107.4,3114.67,Monthly,Credit Card,None,8,1,26,Premium,5,22,Yes
+C334,50,Female,Coimbatore,57,83.3,4720.56,Monthly,Credit Card,Fiber,5,3,22,Premium,10,36,Yes
+C335,22,Male,Hyderabad,22,55.1,1171.73,Monthly,Debit Card,None,6,2,30,Premium,8,49,Yes
+C336,41,Female,Kochi,11,27.19,309.99,Monthly,Debit Card,None,1,1,7,Premium,7,6,No
+C337,48,Male,Chennai,50,97.67,4557.87,Monthly,Debit Card,None,1,5,30,Basic,7,19,Yes
+C338,65,Female,Coimbatore,41,75.04,2914.49,Monthly,UPI,None,5,3,16,Standard,9,59,Yes
+C339,46,Male,Hyderabad,38,84.95,3298.27,Yearly,Bank Transfer,None,8,2,13,Premium,8,34,No
+C340,23,Female,Pune,24,39.79,880.18,Monthly,Credit Card,DSL,7,4,2,Standard,8,60,Yes
+C341,37,Male,Kochi,52,46.97,2249.87,Monthly,Debit Card,Fiber,8,3,14,Standard,4,10,Yes
+C342,59,Female,Kochi,15,65.11,935.95,Monthly,Debit Card,DSL,8,2,15,Premium,4,54,Yes
+C343,26,Female,Bengaluru,41,68.01,2877.85,Monthly,Bank Transfer,Fiber,0,1,3,Standard,9,1,No
+C344,24,Female,Pune,9,94.08,810.52,Yearly,Credit Card,Fiber,3,2,15,Standard,5,50,Yes
+C345,41,Female,Chennai,22,96.3,1998.63,Monthly,Debit Card,DSL,8,3,7,Basic,4,57,Yes
+C346,70,Female,Chennai,8,92.89,729.42,2-Year,Bank Transfer,Fiber,0,1,16,Premium,2,33,Yes
+C347,31,Female,Kochi,44,113.94,4739.52,2-Year,UPI,None,8,0,10,Premium,8,40,No
+C348,41,Male,Mumbai,8,66.25,488.88,Monthly,Debit Card,None,6,1,2,Basic,1,37,Yes
+C349,48,Male,Delhi,50,39.98,1868.31,Monthly,Debit Card,None,0,2,22,Basic,3,44,Yes
+C350,24,Male,Coimbatore,15,78.04,1197.69,Monthly,Debit Card,DSL,3,0,24,Premium,7,22,No
+C351,34,Male,Coimbatore,46,53.0,2514.86,Monthly,Credit Card,None,8,2,12,Basic,8,17,Yes
+C352,56,Male,Bengaluru,34,53.09,1736.71,Monthly,Debit Card,DSL,8,3,25,Basic,3,56,Yes
+C353,41,Male,Delhi,47,116.88,5773.78,Monthly,Credit Card,None,7,4,6,Premium,10,18,Yes
+C354,59,Female,Bengaluru,7,31.33,231.07,Monthly,Credit Card,Fiber,3,0,17,Basic,4,6,Yes
+C355,59,Female,Coimbatore,34,81.08,2557.83,Yearly,Credit Card,None,1,0,8,Premium,8,59,Yes
+C356,23,Female,Chennai,24,114.13,2702.29,Yearly,Debit Card,None,4,4,3,Basic,2,53,Yes
+C357,31,Male,Bengaluru,47,61.61,2753.49,Monthly,Credit Card,None,2,4,25,Premium,9,26,Yes
+C358,67,Female,Coimbatore,45,108.87,4637.97,Yearly,Credit Card,None,8,2,23,Standard,3,34,Yes
+C359,46,Female,Delhi,36,55.84,1968.98,2-Year,Bank Transfer,None,3,4,19,Standard,4,24,No
+C360,65,Female,Delhi,29,62.72,1884.74,Monthly,Debit Card,None,8,1,30,Basic,5,0,No
+C361,32,Male,Delhi,2,114.62,241.06,Yearly,Credit Card,Fiber,7,2,6,Basic,3,16,Yes
+C362,55,Male,Mumbai,17,33.73,564.22,Yearly,Credit Card,None,5,3,7,Basic,8,52,Yes
+C363,62,Male,Pune,3,79.75,223.11,Yearly,UPI,DSL,6,3,29,Standard,2,55,Yes
+C364,65,Male,Kochi,4,28.91,116.38,Monthly,Credit Card,DSL,3,1,3,Premium,7,28,Yes
+C365,54,Male,Mumbai,28,62.46,1645.96,Monthly,UPI,DSL,0,4,14,Premium,5,5,Yes
+C366,45,Male,Hyderabad,31,71.35,2265.73,Yearly,Credit Card,None,8,1,9,Premium,2,17,Yes
+C367,38,Male,Bengaluru,43,59.7,2439.97,Monthly,Debit Card,None,0,2,7,Premium,6,39,Yes
+C368,69,Female,Hyderabad,29,102.73,2836.02,Monthly,Debit Card,Fiber,1,0,25,Premium,1,15,Yes
+C369,27,Female,Chennai,22,35.57,776.29,Yearly,UPI,DSL,8,1,8,Basic,9,33,Yes
+C370,53,Female,Hyderabad,45,26.75,1219.74,Yearly,UPI,DSL,0,2,8,Basic,10,17,No
+C371,59,Male,Bengaluru,25,87.98,2344.8,Yearly,Debit Card,Fiber,4,5,14,Basic,4,24,Yes
+C372,63,Male,Delhi,32,75.5,2294.78,2-Year,Bank Transfer,None,0,0,9,Premium,9,19,No
+C373,43,Male,Chennai,23,58.76,1308.74,Yearly,Debit Card,Fiber,4,3,30,Premium,1,60,Yes
+C374,35,Male,Hyderabad,22,87.41,1796.19,2-Year,Bank Transfer,None,3,3,9,Premium,10,9,No
+C375,37,Female,Coimbatore,35,86.98,3083.77,Monthly,Credit Card,Fiber,8,1,15,Standard,3,41,Yes
+C376,28,Female,Bengaluru,36,93.35,3190.76,Monthly,Credit Card,None,5,3,15,Basic,5,28,Yes
+C377,70,Female,Hyderabad,50,37.5,1732.86,Monthly,Debit Card,None,3,4,9,Premium,4,43,Yes
+C378,23,Female,Hyderabad,33,69.53,2349.4,Yearly,Credit Card,DSL,7,1,7,Standard,4,14,No
+C379,66,Male,Pune,27,88.78,2283.09,Monthly,Credit Card,Fiber,7,4,17,Basic,6,55,Yes
+C380,33,Female,Kochi,50,94.86,4652.22,Monthly,Debit Card,DSL,8,4,22,Premium,1,33,Yes
+C381,47,Male,Mumbai,34,118.46,3730.72,Monthly,Bank Transfer,None,0,1,11,Premium,8,25,Yes
+C382,67,Female,Coimbatore,11,83.25,850.48,Monthly,Credit Card,DSL,7,0,25,Premium,9,7,Yes
+C383,55,Male,Kochi,27,27.37,733.51,Monthly,Credit Card,DSL,4,2,24,Basic,3,45,Yes
+C384,23,Male,Coimbatore,41,74.76,3008.31,Monthly,Credit Card,DSL,6,0,26,Premium,3,58,Yes
+C385,60,Male,Hyderabad,56,98.07,5097.65,Monthly,Debit Card,DSL,7,2,22,Premium,3,7,Yes
+C386,30,Male,Pune,1,106.26,107.0,Monthly,UPI,None,3,1,20,Standard,8,29,Yes
+C387,23,Male,Mumbai,57,83.88,4825.18,Monthly,Credit Card,Fiber,2,0,22,Basic,6,2,No
+C388,20,Female,Delhi,59,35.34,2249.77,Monthly,Credit Card,None,8,1,16,Standard,10,23,Yes
+C389,23,Female,Delhi,24,102.93,2572.47,2-Year,UPI,DSL,2,0,24,Standard,5,21,No
+C390,51,Male,Mumbai,40,79.28,3414.42,Monthly,UPI,DSL,4,3,21,Premium,6,16,Yes
+C391,57,Female,Hyderabad,40,74.37,3037.56,Yearly,Bank Transfer,Fiber,3,5,11,Premium,4,0,No
+C392,47,Male,Mumbai,52,64.39,3104.79,Yearly,Debit Card,None,3,0,22,Premium,4,44,No
+C393,68,Male,Pune,20,55.77,1027.26,Monthly,Debit Card,DSL,0,1,8,Standard,6,53,No
+C394,61,Female,Coimbatore,52,37.9,1862.13,Monthly,Bank Transfer,None,7,3,25,Standard,1,53,Yes
+C395,54,Female,Chennai,14,56.51,843.82,Yearly,Debit Card,Fiber,4,0,12,Basic,7,40,No
+C396,28,Female,Hyderabad,39,99.32,3754.66,Monthly,Debit Card,None,4,3,4,Basic,8,56,Yes
+C397,46,Female,Mumbai,34,35.66,1267.72,Monthly,Credit Card,Fiber,8,0,27,Standard,8,57,Yes
+C398,30,Female,Coimbatore,47,54.48,2489.82,2-Year,UPI,None,2,1,25,Premium,1,29,No
+C399,51,Male,Chennai,20,90.27,1832.64,2-Year,UPI,DSL,0,0,18,Standard,5,1,No
+C400,37,Male,Delhi,13,51.28,647.35,Monthly,Bank Transfer,None,4,1,7,Basic,5,7,No
+C401,57,Male,Mumbai,35,55.26,1823.18,Monthly,Debit Card,None,2,0,11,Basic,10,57,No
+C402,46,Male,Hyderabad,2,89.17,167.1,Monthly,UPI,Fiber,6,1,24,Standard,10,57,Yes
+C403,62,Female,Delhi,20,43.82,912.63,Monthly,UPI,DSL,2,0,28,Premium,8,6,No
+C404,61,Female,Coimbatore,15,38.65,616.46,2-Year,Debit Card,DSL,2,5,23,Standard,6,50,No
+C405,38,Female,Coimbatore,2,35.72,71.2,Monthly,Credit Card,DSL,2,4,5,Standard,7,52,Yes
+C406,24,Female,Bengaluru,51,68.79,3559.11,Monthly,Credit Card,None,8,1,17,Basic,7,4,No
+C407,70,Female,Kochi,37,76.73,2719.16,Yearly,UPI,None,7,0,20,Premium,10,29,No
+C408,24,Female,Hyderabad,20,31.61,592.62,2-Year,Bank Transfer,DSL,0,0,8,Standard,3,56,No
+C409,66,Male,Hyderabad,43,75.47,3188.09,Monthly,Bank Transfer,Fiber,5,2,20,Basic,5,58,Yes
+C410,45,Female,Bengaluru,38,118.71,4441.83,Monthly,Credit Card,DSL,5,4,3,Basic,1,45,Yes
+C411,40,Male,Pune,56,66.01,3749.89,Monthly,Debit Card,None,6,3,15,Standard,9,13,Yes
+C412,48,Male,Mumbai,36,112.83,4282.82,Monthly,Credit Card,DSL,2,1,2,Premium,2,41,Yes
+C413,64,Female,Kochi,9,86.01,763.67,Monthly,Bank Transfer,None,6,4,7,Premium,8,32,Yes
+C414,70,Female,Kochi,23,65.35,1384.59,Monthly,Bank Transfer,None,8,2,15,Basic,9,36,Yes
+C415,20,Female,Delhi,8,116.37,868.41,Yearly,Debit Card,DSL,1,4,30,Premium,10,5,No
+C416,58,Male,Pune,40,57.64,2408.35,Monthly,Bank Transfer,DSL,7,4,25,Premium,6,26,Yes
+C417,69,Female,Pune,11,112.67,1288.83,Monthly,Debit Card,Fiber,7,4,7,Premium,10,3,Yes
+C418,36,Male,Pune,32,73.03,2468.37,Monthly,Debit Card,DSL,4,2,29,Basic,5,0,No
+C419,56,Male,Hyderabad,43,101.74,4207.7,Monthly,Credit Card,DSL,8,0,12,Basic,2,9,Yes
+C420,70,Male,Coimbatore,49,98.18,4609.11,2-Year,Bank Transfer,None,2,1,20,Premium,6,3,No
+C421,66,Male,Chennai,11,70.24,769.71,Monthly,Credit Card,DSL,6,3,10,Premium,3,33,Yes
+C422,18,Female,Coimbatore,25,116.37,2994.38,Yearly,UPI,Fiber,5,3,21,Premium,5,21,Yes
+C423,69,Male,Pune,42,68.81,2971.08,Yearly,Credit Card,None,3,4,12,Premium,3,20,No
+C424,61,Male,Bengaluru,1,74.9,77.12,Monthly,Debit Card,Fiber,4,2,8,Premium,1,1,Yes
+C425,21,Male,Bengaluru,46,33.21,1553.25,2-Year,Bank Transfer,None,2,0,24,Premium,3,16,No
+C426,60,Male,Coimbatore,60,98.09,6066.41,2-Year,Debit Card,DSL,1,2,26,Basic,1,24,No
+C427,21,Female,Pune,12,71.71,919.53,Monthly,Bank Transfer,Fiber,7,0,6,Premium,9,49,Yes
+C428,57,Male,Coimbatore,46,28.31,1212.75,Monthly,Debit Card,DSL,7,1,22,Basic,1,59,Yes
+C429,42,Female,Hyderabad,45,62.18,2575.91,Monthly,Bank Transfer,DSL,6,5,26,Standard,2,34,Yes
+C430,42,Female,Bengaluru,37,119.2,4292.86,Monthly,Debit Card,DSL,1,2,19,Basic,6,5,Yes
+C431,66,Female,Mumbai,12,116.91,1439.0,Yearly,Debit Card,None,1,5,24,Standard,6,31,No
+C432,58,Female,Mumbai,9,27.41,266.28,Monthly,Credit Card,DSL,1,4,22,Standard,5,31,Yes
+C433,69,Female,Chennai,3,57.08,177.3,Monthly,Bank Transfer,Fiber,8,3,23,Basic,9,9,Yes
+C434,32,Male,Chennai,48,87.11,4162.03,Monthly,UPI,Fiber,2,0,7,Premium,1,57,Yes
+C435,68,Male,Coimbatore,40,81.15,3411.05,Monthly,UPI,Fiber,3,0,27,Standard,4,27,Yes
+C436,65,Female,Delhi,8,79.72,600.75,2-Year,Credit Card,Fiber,2,2,4,Premium,2,17,No
+C437,44,Male,Delhi,36,48.15,1756.14,Monthly,Credit Card,Fiber,6,1,2,Premium,8,5,No
+C438,29,Male,Pune,27,100.26,2696.63,Yearly,Credit Card,Fiber,4,4,16,Basic,7,15,Yes
+C439,57,Male,Hyderabad,46,115.28,5410.8,Monthly,Debit Card,DSL,0,4,9,Standard,4,7,Yes
+C440,24,Female,Mumbai,30,87.64,2535.15,Yearly,Credit Card,Fiber,7,3,7,Basic,3,42,Yes
+C441,21,Female,Pune,14,56.76,833.44,Monthly,Bank Transfer,Fiber,0,4,7,Basic,3,50,Yes
+C442,50,Male,Bengaluru,58,67.26,3950.87,Monthly,Bank Transfer,Fiber,5,1,26,Premium,2,20,Yes
+C443,33,Female,Mumbai,25,31.99,810.64,2-Year,UPI,DSL,3,4,16,Basic,3,24,No
+C444,47,Male,Delhi,18,37.09,688.15,Monthly,UPI,DSL,1,3,16,Basic,7,10,Yes
+C445,32,Female,Hyderabad,51,115.51,6273.29,Yearly,Credit Card,Fiber,8,3,29,Standard,4,37,Yes
+C446,47,Female,Chennai,47,107.9,4866.69,Monthly,Bank Transfer,None,2,4,30,Basic,1,26,Yes
+C447,20,Female,Chennai,28,70.53,2069.01,Monthly,UPI,DSL,3,0,19,Standard,1,44,Yes
+C448,31,Male,Delhi,19,119.9,2101.66,Monthly,Debit Card,Fiber,7,4,25,Premium,10,1,Yes
+C449,47,Male,Kochi,12,60.19,718.15,Yearly,UPI,None,6,5,12,Basic,9,2,No
+C450,66,Female,Mumbai,51,83.94,4168.4,Yearly,UPI,None,5,0,5,Premium,7,23,No
+C451,20,Female,Delhi,12,91.96,1114.25,Yearly,Credit Card,Fiber,3,4,5,Standard,8,47,Yes
+C452,55,Male,Mumbai,21,50.4,1088.92,Monthly,Debit Card,Fiber,5,2,16,Basic,8,32,Yes
+C453,25,Female,Pune,29,100.99,3137.41,Yearly,UPI,Fiber,1,0,14,Standard,3,18,Yes
+C454,22,Male,Hyderabad,18,39.06,663.76,Monthly,Credit Card,None,0,2,15,Premium,9,59,No
+C455,40,Female,Coimbatore,48,52.69,2352.26,Yearly,Credit Card,None,5,3,20,Premium,6,41,Yes
+C456,38,Female,Coimbatore,30,37.54,1178.34,Monthly,Credit Card,DSL,7,2,11,Basic,1,9,Yes
+C457,47,Male,Hyderabad,46,42.32,1845.6,Monthly,Credit Card,Fiber,1,0,12,Basic,10,8,No
+C458,41,Male,Mumbai,36,88.23,3419.21,Yearly,Credit Card,DSL,8,1,19,Standard,5,7,No
+C459,43,Female,Hyderabad,30,39.83,1284.79,2-Year,Debit Card,None,4,3,30,Premium,5,60,No
+C460,54,Male,Coimbatore,22,94.51,2212.35,Yearly,Credit Card,None,1,2,2,Premium,7,39,No
+C461,46,Female,Bengaluru,21,85.92,1828.41,Monthly,Credit Card,DSL,0,0,19,Basic,8,43,Yes
+C462,23,Female,Mumbai,32,82.48,2826.61,Monthly,Debit Card,DSL,6,2,14,Basic,6,0,Yes
+C463,40,Female,Coimbatore,56,45.49,2705.51,Yearly,Bank Transfer,DSL,2,5,30,Standard,7,46,No
+C464,26,Male,Hyderabad,14,118.9,1671.34,Monthly,Debit Card,Fiber,6,0,2,Premium,7,40,Yes
+C465,44,Male,Coimbatore,46,111.91,4900.15,Yearly,Bank Transfer,DSL,7,0,28,Premium,5,53,No
+C466,49,Female,Mumbai,2,39.63,76.73,Yearly,Bank Transfer,Fiber,4,3,7,Premium,8,58,Yes
+C467,33,Male,Bengaluru,49,119.46,5447.75,Monthly,Debit Card,None,6,2,22,Standard,8,44,Yes
+C468,41,Male,Pune,11,38.88,425.01,Yearly,Credit Card,DSL,0,2,13,Basic,7,40,Yes
+C469,40,Male,Pune,19,113.95,2169.85,Monthly,Credit Card,Fiber,2,4,12,Premium,6,52,Yes
+C470,69,Female,Pune,44,59.44,2629.76,Yearly,Debit Card,Fiber,2,4,11,Basic,6,49,No
+C471,39,Male,Bengaluru,14,46.01,612.03,Monthly,UPI,DSL,1,0,28,Standard,3,59,Yes
+C472,40,Female,Delhi,9,109.52,1001.08,Yearly,Debit Card,Fiber,4,0,25,Premium,2,14,No
+C473,62,Male,Mumbai,20,37.37,697.01,Monthly,UPI,Fiber,7,3,3,Basic,4,6,Yes
+C474,60,Male,Coimbatore,8,29.11,225.49,2-Year,UPI,Fiber,3,4,30,Basic,4,11,Yes
+C475,19,Male,Hyderabad,55,51.35,2860.29,Yearly,Debit Card,Fiber,3,4,20,Premium,2,6,Yes
+C476,66,Male,Mumbai,46,51.78,2534.95,Monthly,UPI,None,3,4,29,Basic,8,23,Yes
+C477,29,Female,Bengaluru,12,118.22,1401.41,Yearly,Credit Card,DSL,5,0,16,Basic,2,33,Yes
+C478,66,Female,Pune,36,32.81,1179.97,Yearly,Bank Transfer,DSL,4,5,28,Standard,8,14,No
+C479,36,Female,Mumbai,55,104.9,5747.05,Monthly,Debit Card,Fiber,7,5,5,Basic,7,28,Yes
+C480,61,Male,Bengaluru,10,91.03,979.86,Monthly,Credit Card,Fiber,3,2,8,Standard,10,54,Yes
+C481,25,Male,Kochi,47,97.66,4785.35,Monthly,Debit Card,None,5,3,23,Standard,10,60,Yes
+C482,49,Female,Hyderabad,50,36.61,1827.38,Monthly,Credit Card,None,0,0,25,Basic,1,53,No
+C483,61,Male,Hyderabad,25,56.06,1357.27,Yearly,UPI,Fiber,8,3,27,Premium,8,12,No
+C484,49,Female,Pune,35,106.67,3761.3,Monthly,UPI,DSL,6,3,12,Basic,7,28,Yes
+C485,20,Male,Pune,57,71.69,3847.35,Yearly,Bank Transfer,DSL,7,5,19,Basic,9,36,No
+C486,53,Male,Chennai,26,81.15,2068.65,Monthly,Debit Card,DSL,0,0,20,Standard,1,8,Yes
+C487,40,Male,Delhi,25,57.79,1411.78,Monthly,Debit Card,Fiber,3,1,9,Premium,5,37,No
+C488,62,Male,Pune,8,26.87,208.98,Monthly,Bank Transfer,None,8,3,10,Standard,1,44,Yes
+C489,19,Female,Kochi,37,79.39,3082.34,Monthly,UPI,None,3,2,17,Premium,9,51,Yes
+C490,39,Male,Pune,24,44.17,1083.05,2-Year,UPI,None,4,2,3,Basic,5,36,No
+C491,32,Male,Bengaluru,38,31.39,1250.3,Monthly,Bank Transfer,DSL,5,0,22,Basic,5,32,Yes
+C492,45,Female,Mumbai,27,84.37,2260.94,Monthly,Credit Card,Fiber,8,1,20,Premium,8,13,Yes
+C493,70,Female,Pune,60,101.85,6455.93,Yearly,Bank Transfer,None,0,4,8,Premium,6,29,No
+C494,27,Female,Kochi,27,103.87,2609.04,Monthly,Credit Card,DSL,4,5,7,Standard,5,43,Yes
+C495,43,Male,Bengaluru,10,48.33,508.6,Monthly,Bank Transfer,DSL,6,3,22,Premium,1,12,Yes
+C496,26,Male,Pune,51,87.57,4234.54,Yearly,UPI,None,0,0,29,Standard,2,20,No
+C497,22,Female,Delhi,43,33.58,1546.32,Yearly,Credit Card,Fiber,8,0,18,Basic,10,60,No
+C498,51,Female,Coimbatore,57,81.98,4877.11,Monthly,Debit Card,DSL,6,5,25,Premium,4,59,Yes
+C499,27,Male,Hyderabad,14,66.75,897.76,2-Year,UPI,DSL,5,5,5,Premium,6,34,No
+C500,61,Male,Pune,57,38.77,2201.13,Yearly,Debit Card,DSL,0,5,23,Basic,1,44,Yes
