@@ -1,0 +1,62 @@
+CUSTOMER CHURN PREDICTION
+MODEL PERFORMANCE SUMMARY
+========================================
+
+Dataset
+----------------------------------------
+Total customers: 500
+Training customers: 400
+Testing customers: 100
+
+Target
+----------------------------------------
+Churn = 1
+No Churn = 0
+
+
+LOGISTIC REGRESSION
+----------------------------------------
+Accuracy:  84.00%
+Precision: 85.07%
+Recall:    90.48%
+F1-score:  87.69%
+
+Confusion Matrix:
+[[27, 10],
+ [ 6, 57]]
+
+
+RANDOM FOREST
+----------------------------------------
+Accuracy:  78.00%
+Precision: 78.87%
+Recall:    88.89%
+F1-score:  83.58%
+
+Confusion Matrix:
+[[22, 15],
+ [ 7, 56]]
+
+
+BEST PERFORMING MODEL
+----------------------------------------
+Model: Logistic Regression
+
+Accuracy:  84.00%
+Precision: 85.07%
+Recall:    90.48%
+F1-score:  87.69%
+
+
+CONCLUSION
+----------------------------------------
+Logistic Regression performed better than
+Random Forest on the current test dataset.
+
+The Logistic Regression model achieved an
+accuracy of 84.00% and an F1-score of 87.69%.
+
+The model was selected for the final churn
+prediction system and saved as:
+
+models/logistic_regression_model.pkl
