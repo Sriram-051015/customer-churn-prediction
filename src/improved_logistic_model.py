@@ -23,7 +23,7 @@ y = df["churn_encoded"]
 
 
 # Identify columns
-categorical_columns = X.select_dtypes(include=["object"]).columns.tolist()
+categorical_columns = X.select_dtypes(include=["str"]).columns.tolist()
 numerical_columns = X.select_dtypes(exclude=["object"]).columns.tolist()
 
 

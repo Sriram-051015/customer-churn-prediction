@@ -17,7 +17,7 @@ X = df.drop(columns=["customer_id", "churn", "churn_encoded"])
 y = df["churn_encoded"]
 
 # Identify categorical and numerical columns
-categorical_columns = X.select_dtypes(include=["object"]).columns.tolist()
+categorical_columns = X.select_dtypes(include=["str"]).columns.tolist()
 
 # Preprocessing
 preprocessor = ColumnTransformer(

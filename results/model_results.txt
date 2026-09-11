@@ -28,14 +28,14 @@ Confusion Matrix:
 
 RANDOM FOREST
 ----------------------------------------
-Accuracy:  78.00%
-Precision: 78.87%
-Recall:    88.89%
-F1-score:  83.58%
+Accuracy:  79.00%
+Precision: 79.17%
+Recall:    90.48%
+F1-score:  84.44%
 
 Confusion Matrix:
 [[22, 15],
- [ 7, 56]]
+ [ 6, 57]]
 
 
 BEST PERFORMING MODEL
@@ -44,7 +44,7 @@ Model: Logistic Regression
 
 Accuracy:  84.00%
 Precision: 85.07%
-Recall:    90.48%
+Recall:  90.48%
 F1-score:  87.69%
 
 
