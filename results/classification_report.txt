@@ -1,0 +1,11 @@
+LOGISTIC REGRESSION CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+    No Churn       0.82      0.73      0.77        37
+       Churn       0.85      0.90      0.88        63
+
+    accuracy                           0.84       100
+   macro avg       0.83      0.82      0.82       100
+weighted avg       0.84      0.84      0.84       100
