@@ -88,6 +88,17 @@ Logistic Regression achieved the best overall performance and was selected as th
 
 ![Logistic Regression Feature Importance](results/logistic_feature_importance.png)
 
+### Classification Report
+
+The classification report provides detailed performance metrics for both churn classes.
+
+| Class | Precision | Recall | F1-score |
+|---|---:|---:|---:|
+| No Churn | 0.82 | 0.73 | 0.77 |
+| Churn | 0.85 | 0.90 | 0.88 |
+
+The model achieved an overall accuracy of **84%** on the test dataset.
+
 ## Technologies Used
 
 - Python
